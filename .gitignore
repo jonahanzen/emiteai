@@ -1,0 +1,116 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+*.hprof
+*.DS_Store
+*.project
+*.classpath
+*.settings/
+*.factorypath
+
+# Maven
+/logs/
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot
+spring.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+*.metadata/
+*.classpath
+*.project
+*.settings/
+
+# Node/React
+node_modules/
+build/
+dist/
+yarn-error.log
+npm-debug.log
+package-lock.json
+yarn.lock
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Caching
+.cache/
+.npm/
+.pnpm-store/
+
+# NESSE CASO ESPECÍFICO, por não ser produção, enviarei a env
+# Environment files
+# .env
+# .env.*
+
+# Misc
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Test output
+/test-output/
+
+# Others
+*.tgz
+*.gz
+*.zip
+*.tar
+*.7z
+*.rar
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Local history
+.localhistory/
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*/
+
+# Docker
+**/docker-compose.override.yml
+**/.docker/
+
+# End of file
